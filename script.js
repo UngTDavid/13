@@ -78,7 +78,7 @@ $(document).ready(function() {
       $("#demo").append(playerName);
       for (let card in player) {
         let content = `
-        <img src=./images/${player[card].src} class="cardHand" id="${player[card].number}">
+        <img src=images/${player[card].src} class="cardHand" id="${player[card].number}">
         `
         $("#demo").append(content);
       }
