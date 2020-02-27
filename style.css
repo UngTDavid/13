@@ -1,0 +1,16 @@
+body{
+  background-image: url("images/tablebackground.png");
+  border-style: double;
+  border-color: white;
+}
+#demo{
+  text-align: center;
+}
+.cardHand{
+  width:10%;
+  margin-left:-5%
+}
+.cardHand:hover{
+  margin-left: -1%;
+  margin-bottom:30px;
+}
