@@ -12,6 +12,7 @@ $(document).ready(function() {
     constructor(value, suit, number) {
       this.value = value;
       this.suit = suit;
+      this.codeName =
       this.src = ((value + suit[0]).toUpperCase() + ".png")
       this.number = number;
     }
@@ -118,7 +119,7 @@ $(document).ready(function() {
   newDeck.regenerate();
 
   //plays a single card
-  function playSingle(){
+  // function playSingle(){
   $('.cardHand').click(
     function() {
       //targets the number of the card and stores it in card ID
@@ -139,7 +140,7 @@ $(document).ready(function() {
 
     }
   )
-}
+// }
   console.log(players.playersInGame[1].cardsInHand);
 
 
