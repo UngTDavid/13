@@ -12,7 +12,7 @@ $(document).ready(function() {
     constructor(value, suit, number) {
       this.value = value;
       this.suit = suit;
-      this.src = (value + suit[0] + ".png").toUpperCase();
+      this.src = ((value + suit[0]).toUpperCase() + ".png")
       this.number = number;
     }
   }
